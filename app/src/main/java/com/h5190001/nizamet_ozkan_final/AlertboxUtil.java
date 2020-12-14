@@ -1,8 +1,10 @@
 package com.h5190001.nizamet_ozkan_final;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
 import android.provider.Settings;
 
 import androidx.appcompat.app.AlertDialog;
@@ -19,7 +21,7 @@ public class AlertboxUtil {
             @Override
             public void onClick(DialogInterface intf, int i) {
                 Intent InternetIntent = new Intent(Settings.ACTION_WIRELESS_SETTINGS);
-                startActivity(InternetIntent);
+                ((Activity)context).startActivity(InternetIntent);
                 intf.dismiss();
             }
         });
@@ -31,5 +33,15 @@ public class AlertboxUtil {
             }
         });
         builder.show();
+    }
+
+    public class MyActivity extends Activity{
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+            ///.....
+            AlertboxUtil.InternetAlertDialog(this);
+        }
     }
 }
