@@ -1,14 +1,19 @@
 package com.h5190001.nizamet_ozkan_final;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
+import android.provider.Settings;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+
+import static androidx.core.content.ContextCompat.startActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -16,8 +21,7 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-        AlertboxUtil.InternetAlertDialog(getApplicationContext());
-        StartDelay();
+        InternetCheck();
     }
 
     private void StartDelay() {
@@ -30,6 +34,7 @@ public class SplashScreen extends AppCompatActivity {
                 } finally {
                     Intent intent = new Intent(SplashScreen.this, MainActivity.class);
                     startActivity(intent);
+                    finish();
                 }
             }
         };
@@ -42,18 +47,35 @@ public class SplashScreen extends AppCompatActivity {
         finish();
     }
 
+    private void InternetCheck(){
+        if(InternetConnectionCheck()){
+            StartDelay();
+        }else{
+            InternetAlertDialog();
+        }
+    }
+
     private boolean InternetConnectionCheck(){
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         return cm.getActiveNetworkInfo() != null && cm.getActiveNetworkInfo().isConnected();
     }
 
-    public boolean isInternetAvailable() {
-        try {
-            InetAddress address = InetAddress.getByName("www.google.com");
-            return !address.equals("");
-        } catch (UnknownHostException e) {
-            // Log error
-        }
-        return false;
+    public void InternetAlertDialog()
+    {
+        AlertDialog.Builder builder =new AlertDialog.Builder(this);
+        builder.setTitle("INTERNET HATASI!");
+        builder.setMessage("Internete bağlı değilsiniz. Lütfen internete bağlanın");
+        builder.setPositiveButton("İnternet ayarları", (intf, i) -> {
+            Intent InternetIntent = new Intent(Settings.ACTION_WIRELESS_SETTINGS);
+            startActivity(InternetIntent);
+            intf.dismiss();
+            finish();
+        });
+
+        builder.setNegativeButton("ÇIKIŞ", (intf, i) -> {
+            intf.dismiss();
+            finish();
+        });
+        builder.show();
     }
 }
