@@ -1,19 +1,15 @@
-package com.h5190001.nizamet_ozkan_final;
+package com.h5190001.nizamet_ozkan_final.Activitiy;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.provider.Settings;
 
-import java.net.InetAddress;
-import java.net.UnknownHostException;
-
-import static androidx.core.content.ContextCompat.startActivity;
+import com.h5190001.nizamet_ozkan_final.R;
 
 public class SplashScreen extends AppCompatActivity {
 

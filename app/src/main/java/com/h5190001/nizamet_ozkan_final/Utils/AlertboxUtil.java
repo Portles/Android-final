@@ -1,4 +1,4 @@
-package com.h5190001.nizamet_ozkan_final;
+package com.h5190001.nizamet_ozkan_final.Utils;
 
 import android.app.Activity;
 import android.content.Context;
