@@ -1,5 +1,4 @@
 {
-  "Games": [
     {
       "Name":"Nostale",
       "Tags":"Action-Advanture-Anime",
@@ -42,5 +41,4 @@
       "Logo":"https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/Tera.jpg",
       "BigPic":"https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/TeraBig.jpg",
     }
-  ]
 }
