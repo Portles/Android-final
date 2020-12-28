@@ -23,17 +23,17 @@
 
 
             <ImageView
-                android:id="@+id/imgKapak"
+                android:id="@+id/imgMainHeader"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
 
                 tools:srcCompat="@tools:sample/avatars" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcvHocalar"
+                android:id="@+id/rcvListItems"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:layout_constraintTop_toBottomOf="@+id/imgKapak"
+                app:layout_constraintTop_toBottomOf="@+id/imgMainHeader"
                 tools:listitem="@layout/item_list_view" />
 
         </LinearLayout>
