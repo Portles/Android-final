@@ -17,6 +17,17 @@ public class ListItems {
     @SerializedName("Logo")
     @Expose
     private String Logo;
+    @SerializedName("BigPic")
+    @Expose
+    private String BigPic;
+
+    public String getBigPic() {
+        return BigPic;
+    }
+
+    public void setBigPic(String bigPic) {
+        BigPic = bigPic;
+    }
 
     public String getName() {
         return Name;

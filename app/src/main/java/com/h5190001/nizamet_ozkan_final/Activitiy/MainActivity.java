@@ -4,15 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 
 import com.h5190001.nizamet_ozkan_final.Adapters.ViewHolders.ListItemAdapter;
 import com.h5190001.nizamet_ozkan_final.Models.ListItems;
 import com.h5190001.nizamet_ozkan_final.R;
 import com.h5190001.nizamet_ozkan_final.Services.Service;
+import com.h5190001.nizamet_ozkan_final.Utils.Constants;
 import com.h5190001.nizamet_ozkan_final.Utils.GlideUtil;
+import com.h5190001.nizamet_ozkan_final.Utils.Objects;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,11 +26,12 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
+import static com.h5190001.nizamet_ozkan_final.Utils.Constants.MAIN_HEADER_IMAGE_URL;
+
 public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     ImageView imgMainHeader;
-    String imageUrl ="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/gameforge.jpg";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private  void getHeaderImage()
     {
         imgMainHeader =findViewById(R.id.imgMainHeader);
-        GlideUtil.downloadPicAndShow(getApplicationContext(),imageUrl,imgMainHeader);
+        GlideUtil.downloadPicAndShow(getApplicationContext(),MAIN_HEADER_IMAGE_URL,imgMainHeader);
     }
 
     void  getItemList()
@@ -84,11 +89,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private  void  initRecycleView(List<ListItems> hocaList)
+    private  void  initRecycleView(List<ListItems> itemList)
     {
         recyclerView =findViewById(R.id.rcvListItems);
-        ListItemAdapter listItemAdapter =new ListItemAdapter(hocaList,getApplicationContext());
+        ListItemAdapter listItemAdapter = new ListItemAdapter(itemList, getApplicationContext(), new ListItemAdapter.OnItemClickListener() {
+            @Override
+            public void onClick(int position) {
+                ListItems clickedItem = itemList.get(position);
+                SetDetailedItemId(clickedItem);
+            }
+        });
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         recyclerView.setAdapter(listItemAdapter);
+    }
+
+    private void SetDetailedItemId(ListItems clicked){
+        Intent detailsActivityIntent = new Intent(getApplicationContext(),DetailsActivity.class);
+        String clickedItemString = Objects.ListItemToJsonString(clicked);
+        detailsActivityIntent.putExtra(Constants.SELECTED_ITEM,clickedItemString);
+        startActivity(detailsActivityIntent);
+
     }
 }

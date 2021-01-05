@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activitiy.MainActivity">
-
+    tools:context=".Activitiy.DetailsActivity">
 
     <androidx.core.widget.NestedScrollView
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -16,29 +14,35 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
-
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imgMainHeader"
+                android:id="@+id/HeaderImg"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-
+                android:layout_weight="1"
                 tools:srcCompat="@tools:sample/avatars" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rcvListItems"
+            <TextView
+                android:id="@+id/Header"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:layout_constraintTop_toBottomOf="@+id/imgMainHeader"
-                tools:listitem="@layout/item_list_view" />
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="HEADER"
+                android:textAlignment="center"
+                android:textSize="@dimen/Detail_header_weight" />
+
+            <TextView
+                android:id="@+id/About"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:text="INFO"
+                android:textAlignment="center"
+                android:textColor="@color/detail_info" />
 
         </LinearLayout>
-
     </androidx.core.widget.NestedScrollView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

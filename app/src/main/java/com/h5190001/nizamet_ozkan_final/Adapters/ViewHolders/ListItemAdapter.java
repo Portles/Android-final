@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,11 +19,16 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
 
     List<ListItems> Items;
     Context context;
+    OnItemClickListener listener;
 
+    public interface OnItemClickListener{
+        void onClick(int position);
+    }
 
-    public ListItemAdapter(List<ListItems> Items, Context context) {
+    public ListItemAdapter(List<ListItems> Items, Context context, OnItemClickListener listener) {
         this.Items = Items;
         this.context = context;
+        this.listener = listener;
     }
 
     @NonNull
@@ -30,7 +36,7 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
     public ListItemViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list_view,parent,false);
-        return new ListItemViewHolder(itemView);
+        return new ListItemViewHolder(itemView, listener);
     }
 
     @Override
