@@ -37,7 +37,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         getHeaderImage(listItem.getBigPic());
         Header.setText(listItem.getName());
-        About.setText(listItem.getTags());
+        About.setText(listItem.getDetail());
     }
     private  void getHeaderImage(String logo)
     {
