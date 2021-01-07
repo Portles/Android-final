@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activitiy.MainActivity">
+    tools:context=".Activitiy.ListActivity">
 
 
     <androidx.core.widget.NestedScrollView
@@ -25,7 +25,7 @@
             <ImageView
                 android:id="@+id/imgMainHeader"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="@dimen/list_page_height"
 
                 tools:srcCompat="@tools:sample/avatars" />
 

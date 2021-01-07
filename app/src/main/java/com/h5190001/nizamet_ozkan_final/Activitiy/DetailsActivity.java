@@ -23,17 +23,15 @@ public class DetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
-
         init();
     }
 
     private void init(){
-        String carriedInfo = getIntent().getStringExtra(Constants.SELECTED_ITEM);
-        ListItems listItem = Objects.jsonStringToListItem(carriedInfo);
-
         Header = findViewById(R.id.Header);
         About = findViewById(R.id.About);
         HeaderImg =findViewById(R.id.HeaderImg);
+
+        ListItems listItem = getItemInfo();
 
         getHeaderImage(listItem.getBigPic());
         Header.setText(listItem.getName());
@@ -42,5 +40,10 @@ public class DetailsActivity extends AppCompatActivity {
     private  void getHeaderImage(String logo)
     {
         GlideUtil.downloadPicAndShow(getApplicationContext(),logo,HeaderImg);
+    }
+
+    private ListItems getItemInfo(){
+        String carriedInfo = getIntent().getStringExtra(Constants.SELECTED_ITEM);
+        return Objects.jsonStringToListItem(carriedInfo);
     }
 }

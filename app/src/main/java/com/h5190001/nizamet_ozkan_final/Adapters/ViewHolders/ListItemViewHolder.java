@@ -15,6 +15,7 @@ public class ListItemViewHolder extends RecyclerView.ViewHolder {
     ImageView imgHeader;
     TextView txtName;
     TextView txtRelasedate;
+    TextView txtTags;
 
     public ListItemViewHolder(@NonNull View itemView, ListItemAdapter.OnItemClickListener listener) {
         super(itemView);
@@ -22,6 +23,7 @@ public class ListItemViewHolder extends RecyclerView.ViewHolder {
         imgHeader =itemView.findViewById(R.id.imgHeader);
         txtName =itemView.findViewById(R.id.txtName);
         txtRelasedate =itemView.findViewById(R.id.txtRelasedate);
+        txtTags = itemView.findViewById(R.id.txtTags);
 
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -21,25 +21,24 @@
             <ImageView
                 android:id="@+id/HeaderImg"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="@dimen/list_page_height"
                 android:layout_weight="1"
                 tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
                 android:id="@+id/Header"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="@dimen/detail_page_header_height"
                 android:layout_weight="1"
-                android:text="HEADER"
+                android:text="@string/EMPTY"
                 android:textAlignment="center"
                 android:textSize="@dimen/Detail_header_weight" />
 
             <TextView
                 android:id="@+id/About"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_weight="1"
-                android:text="INFO"
+                android:layout_height="wrap_content"
+                android:text="@string/EMPTY"
                 android:textAlignment="center"
                 android:textColor="@color/detail_info" />
 

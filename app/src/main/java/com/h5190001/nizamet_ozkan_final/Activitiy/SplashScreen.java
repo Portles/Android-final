@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 
 import com.h5190001.nizamet_ozkan_final.R;
+import com.h5190001.nizamet_ozkan_final.Utils.AlertboxUtil;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -28,7 +29,7 @@ public class SplashScreen extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+                    Intent intent = new Intent(SplashScreen.this, ListActivity.class);
                     startActivity(intent);
                     finish();
                 }
@@ -47,7 +48,7 @@ public class SplashScreen extends AppCompatActivity {
         if(InternetConnectionCheck()){
             StartDelay();
         }else{
-            InternetAlertDialog();
+            AlertboxUtil.InternetAlertDialog(getApplicationContext(),SplashScreen.this);
         }
     }
 
@@ -56,22 +57,4 @@ public class SplashScreen extends AppCompatActivity {
         return cm.getActiveNetworkInfo() != null && cm.getActiveNetworkInfo().isConnected();
     }
 
-    public void InternetAlertDialog()
-    {
-        AlertDialog.Builder builder =new AlertDialog.Builder(this);
-        builder.setTitle("INTERNET HATASI!");
-        builder.setMessage("Internete bağlı değilsiniz. Lütfen internete bağlanın");
-        builder.setPositiveButton("İnternet ayarları", (intf, i) -> {
-            Intent InternetIntent = new Intent(Settings.ACTION_WIRELESS_SETTINGS);
-            startActivity(InternetIntent);
-            intf.dismiss();
-            finish();
-        });
-
-        builder.setNegativeButton("ÇIKIŞ", (intf, i) -> {
-            intf.dismiss();
-            finish();
-        });
-        builder.show();
-    }
 }

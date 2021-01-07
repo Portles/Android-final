@@ -1,5 +1,21 @@
 # Android-final
 
+LOGO
+--------
+
+
+ABOUT
+--------
+
+SCREENSHOTS
+--------
+
+ABOUT MVC PACKET MANAGEMENT
+--------
+
+USED FRAMEWORKS
+--------
+
 Assests from: Gameforge https://gameforge.com/
 
 License

@@ -1,19 +1,22 @@
 package com.h5190001.nizamet_ozkan_final.Activitiy;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 
 import com.h5190001.nizamet_ozkan_final.Adapters.ViewHolders.ListItemAdapter;
 import com.h5190001.nizamet_ozkan_final.Models.ListItems;
 import com.h5190001.nizamet_ozkan_final.R;
 import com.h5190001.nizamet_ozkan_final.Services.Service;
+import com.h5190001.nizamet_ozkan_final.Utils.AlertboxUtil;
 import com.h5190001.nizamet_ozkan_final.Utils.Constants;
 import com.h5190001.nizamet_ozkan_final.Utils.GlideUtil;
 import com.h5190001.nizamet_ozkan_final.Utils.Objects;
@@ -28,7 +31,7 @@ import io.reactivex.schedulers.Schedulers;
 
 import static com.h5190001.nizamet_ozkan_final.Utils.Constants.MAIN_HEADER_IMAGE_URL;
 
-public class MainActivity extends AppCompatActivity {
+public class ListActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
     ImageView imgMainHeader;
@@ -36,10 +39,19 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_list);
 
+        init();
+    }
+
+    private void init(){
         getHeaderImage();
         getItemList();
+    }
+
+    @Override
+    public void onBackPressed() {
+        AlertboxUtil.QuitAlertDialog(getApplicationContext(), ListActivity.this);
     }
 
     private  void getHeaderImage()
@@ -50,6 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
     void  getItemList()
     {
+        ProgressDialog progressDialog = new ProgressDialog(ListActivity.this);
+        progressDialog.setMessage(getResources().getString(R.string.loading_items));
+        progressDialog.show();
 
         new Service().getServiceApi().GetListItems().
                 subscribeOn(Schedulers.io())
@@ -84,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
                             initRecycleView(items);
                         }
+                        progressDialog.dismiss();
                     }
                 });
     }

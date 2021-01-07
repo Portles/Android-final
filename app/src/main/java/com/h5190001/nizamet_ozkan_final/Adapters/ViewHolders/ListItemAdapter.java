@@ -45,6 +45,7 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemViewHolder> {
         viewHolder.txtName.setText(Items.get(position).getName());
         viewHolder.txtRelasedate.setText(Items.get(position).getRelaseDate());
         GlideUtil.downloadPicAndShow(context,Items.get(position).getLogo(),viewHolder.imgHeader);
+        viewHolder.txtTags.setText(Items.get(position).getTags());
 
     }
 
