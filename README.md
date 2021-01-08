@@ -13,9 +13,9 @@ LOGO
 
 ABOUT
 --------
-Simple app about pull image and json data with okHttp.
-Listing data with Adapters and ViewHolders.
-Great example for MVVM.
+<p>Simple app about pull image and json data with okHttp.</p>
+<p>Listing data with Adapters and ViewHolders.</p>
+<p>Great example for MVVM.</p>
 
 SCREENSHOTS
 --------
@@ -33,7 +33,13 @@ MVC PACKET MANAGEMENT
 
 USED FRAMEWORKS
 --------
-
+<li><a href="https://www.java.com/">Java</a></li>
+<li><a href="https://github.com/bumptech/glide">Glide</a></li>
+<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
+<li><a href="https://github.com/ReactiveX/RxAndroid">RxAndroid</a></li>
+<li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
+<li><a href="https://github.com/square/okhttp">OkHttp</a></li>
+<li><a href="https://material.io/develop/android/docs/getting-started/">Material Design</a></li>
 Assests from: Gameforge https://gameforge.com/
 
 License
