@@ -7,7 +7,6 @@
 [![JAVA-Android-Extensions](https://img.shields.io/badge/Java--Android--Extensions-plugin-red.svg)](https://developer.android.com/studio/releases/gradle-plugin) 
 [![MVVM](https://img.shields.io/badge/Clean--Code-MVVM-brightgreen.svg)](https://github.com/googlesamples/android-architecture) 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-green)](https://raw.githubusercontent.com/Portles/Android-final/main/LICENSE) 
-[![JAVA](https://img.shields.io/badge/JAVA-8-green)](https://www.java.com/) [![Dagger 2](https://img.shields.io/badge/Dagger-2.xx-orange.svg)](https://google.github.io/dagger/) [![JAVA-Android-Extensions](https://img.shields.io/badge/Kotlin--Android--Extensions-plugin-red.svg)](https://kotlinlang.org/docs/tutorials/android-plugin.html) [![MVVM](https://img.shields.io/badge/Clean--Code-MVVM-brightgreen.svg)](https://github.com/googlesamples/android-architecture) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/96a9f51de7eb4a00841953d51c48b968)]
 LOGO
 --------
 <img width="120" height="120" src="https://raw.githubusercontent.com/Portles/Android-final/main/app/src/main/res/drawable/logo.png" />
