@@ -2,8 +2,10 @@
 [![JAVA](https://img.shields.io/badge/JAVA-8-green)](https://www.java.com/) 
 [![Glide 4](https://img.shields.io/badge/glide-4.11.0-orange)](https://github.com/bumptech/glide) 
 [![okHttp Badge](https://img.shields.io/badge/okhttp-2.7.2-green)](https://square.github.io/okhttp/) 
-[![JAVA-Android-Extensions](https://img.shields.io/badge/Java--Android--Extensions-plugin-red.svg)](https://kotlinlang.org/docs/tutorials/android-plugin.html) 
+[![Retrofit](https://img.shields.io/badge/Retrofit-2.7.0-red)](https://square.github.io/retrofit/) 
+[![JAVA-Android-Extensions](https://img.shields.io/badge/Java--Android--Extensions-plugin-red.svg)](https://developer.android.com/studio/releases/gradle-plugin) 
 [![MVVM](https://img.shields.io/badge/Clean--Code-MVVM-brightgreen.svg)](https://github.com/googlesamples/android-architecture) 
+[![Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-green)](https://raw.githubusercontent.com/Portles/Android-final/main/LICENSE) 
 
 LOGO
 --------
@@ -11,6 +13,9 @@ LOGO
 
 ABOUT
 --------
+Simple app about pull image and json data with okHttp.
+Listing data with Adapters and ViewHolders.
+Great example for MVVM.
 
 SCREENSHOTS
 --------
@@ -24,6 +29,7 @@ SCREENSHOTS
 
 ABOUT MVC PACKET MANAGEMENT
 --------
+
 
 USED FRAMEWORKS
 --------
