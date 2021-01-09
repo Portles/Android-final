@@ -21,9 +21,9 @@ SCREENSHOTS
 --------
 <p>
   <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/SplahScreenActivity.png" alt="SS1" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/InternetAlertActivity.png" alt="SS2" />
+  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/InternetAlertDialog.png" alt="SS2" />
   <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/ListActivity.png" alt="SS3" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/QuitAlertActivity.png" alt="SS4" />
+  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/QuitAlertDialog.png" alt="SS4" />
   <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/DetailsActivity.png" alt="SS5" />
 </p>
 
