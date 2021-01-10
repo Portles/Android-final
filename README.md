@@ -29,7 +29,7 @@ SCREENSHOTS
 
 MVC PACKET MANAGEMENT
 --------
-<img width="300" height= "800"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/MVVM.png" alt="SS5" />
+<img width="330" height= "800"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/MVVM.png" alt="SS5" />
 
 USED FRAMEWORKS
 --------
