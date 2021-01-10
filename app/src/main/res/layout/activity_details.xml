@@ -29,7 +29,6 @@
                 android:id="@+id/Header"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/detail_page_header_height"
-                android:layout_weight="1"
                 android:text="@string/EMPTY"
                 android:textAlignment="center"
                 android:textSize="@dimen/Detail_header_weight" />

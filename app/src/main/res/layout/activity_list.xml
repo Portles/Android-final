@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Activitiy.ListActivity">
 
-
     <androidx.core.widget.NestedScrollView
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -17,16 +15,13 @@
 
         <LinearLayout
             android:orientation="vertical"
-
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
 
             <ImageView
                 android:id="@+id/imgMainHeader"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/list_page_height"
-
                 tools:srcCompat="@tools:sample/avatars" />
 
             <androidx.recyclerview.widget.RecyclerView
@@ -39,6 +34,5 @@
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

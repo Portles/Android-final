@@ -112,14 +112,14 @@ public class ListActivity extends AppCompatActivity {
             @Override
             public void onClick(int position) {
                 ListItems clickedItem = itemList.get(position);
-                SetDetailedItemId(clickedItem);
+                SetDetailedItem(clickedItem);
             }
         });
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         recyclerView.setAdapter(listItemAdapter);
     }
 
-    private void SetDetailedItemId(ListItems clicked){
+    private void SetDetailedItem(ListItems clicked){
         Intent detailsActivityIntent = new Intent(getApplicationContext(),DetailsActivity.class);
         String clickedItemString = Objects.ListItemToJsonString(clicked);
         detailsActivityIntent.putExtra(Constants.SELECTED_ITEM,clickedItemString);

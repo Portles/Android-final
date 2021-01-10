@@ -21,6 +21,20 @@ public class SplashScreen extends AppCompatActivity {
         InternetCheck();
     }
 
+    @Override
+    protected void onPause () {
+        super.onPause();
+        finish();
+    }
+
+    private void InternetCheck(){
+        if(InternetConnectionCheck()){
+            StartDelay();
+        }else{
+            AlertboxUtil.InternetAlertDialog(getApplicationContext(),SplashScreen.this);
+        }
+    }
+
     private void StartDelay() {
         Thread timerThread = new Thread() {
             public void run() {
@@ -36,20 +50,6 @@ public class SplashScreen extends AppCompatActivity {
             }
         };
         timerThread.start();
-    }
-
-    @Override
-    protected void onPause () {
-        super.onPause();
-        finish();
-    }
-
-    private void InternetCheck(){
-        if(InternetConnectionCheck()){
-            StartDelay();
-        }else{
-            AlertboxUtil.InternetAlertDialog(getApplicationContext(),SplashScreen.this);
-        }
     }
 
     private boolean InternetConnectionCheck(){
