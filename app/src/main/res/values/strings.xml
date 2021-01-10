@@ -1,21 +1,21 @@
 <resources>
     <string name="app_name">H5190001_NizametOzkanFinal</string>
 
-    <string name="list_item_header">Game:</string>
-    <string name="list_item_relasedate">Relase Date:</string>
-    <string name="list_item_tags">Tags:</string>
+    <string name="list_item_header">Oyun:</string>
+    <string name="list_item_relasedate">Çıkış Tarihi:</string>
+    <string name="list_item_tags">Etiketler:</string>
 
-    <string name="EMPTY">EMPTY</string>
+    <string name="EMPTY">BOŞ</string>
 
-    <string name="loading_items">Loading...</string>
+    <string name="loading_items">Yükleniyor...</string>
 
-    <string name="internet_dialog_header">INTERNET PROBLEM!</string>
-    <string name="internet_dialog_message">You need to connect internet!</string>
-    <string name="internet_dialog_positive">İnternet settings</string>
-    <string name="internet_dialog_negative">QUIT</string>
+    <string name="internet_dialog_header">İnternet Sorunu!</string>
+    <string name="internet_dialog_message">İnternete bağlanmanız gerek!</string>
+    <string name="internet_dialog_positive">İnternet Ayarları</string>
+    <string name="internet_dialog_negative">ÇIKIŞ</string>
 
-    <string name="quit_dialog_header">QUIT</string>
-    <string name="quit_dialog_message">Do you want to quit?</string>
-    <string name="quit_dialog_positive">QUIT</string>
-    <string name="quit_dialog_negative">CANCEL</string>
+    <string name="quit_dialog_header">ÇIKIŞ</string>
+    <string name="quit_dialog_message">Çıkmak istediğinizden emin misiniz?</string>
+    <string name="quit_dialog_positive">ÇIKIŞ</string>
+    <string name="quit_dialog_negative">VAZGEÇ</string>
 </resources>
