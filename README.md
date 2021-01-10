@@ -20,11 +20,11 @@ ABOUT
 SCREENSHOTS
 --------
 <p>
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/SplahScreenActivity.png" alt="SS1" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/InternetAlertDialog.png" alt="SS2" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/ListActivity.png" alt="SS3" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/QuitAlertDialog.png" alt="SS4" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/DetailsActivity.png" alt="SS5" />
+  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/SplashScreenActivity.png" alt="SS1" />
+  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/InternetAlertDialog.png" alt="SS2" />
+  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/ListActivity.png" alt="SS3" />
+  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/QuitAlertDialog.png" alt="SS4" />
+  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/DetailsActivity.png" alt="SS5" />
 </p>
 
 MVC PACKET MANAGEMENT
