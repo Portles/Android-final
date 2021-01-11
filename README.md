@@ -7,6 +7,7 @@
 [![JAVA-Android-Extensions](https://img.shields.io/badge/Java--Android--Extensions-plugin-red.svg)](https://developer.android.com/studio/releases/gradle-plugin) 
 [![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)](https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/) 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-green)](https://raw.githubusercontent.com/Portles/Android-final/main/LICENSE) 
+
 LOGO
 --------
 <img width="120" height="120" src="https://raw.githubusercontent.com/Portles/Android-final/main/app/src/main/res/drawable/logo.png" />
