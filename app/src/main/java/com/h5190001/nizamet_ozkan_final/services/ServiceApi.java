@@ -8,6 +8,6 @@ import io.reactivex.Observable;
 import retrofit2.http.GET;
 
 public interface ServiceApi {
-    @GET("Datas.json")
+    @GET("GameforgeGames.json")
     Observable<List<ListItems>> GetListItems();
 }
