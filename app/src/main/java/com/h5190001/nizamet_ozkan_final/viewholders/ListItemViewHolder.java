@@ -1,14 +1,12 @@
-package com.h5190001.nizamet_ozkan_final.Adapters.ViewHolders;
+package com.h5190001.nizamet_ozkan_final.viewholders;
 
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.h5190001.nizamet_ozkan_final.Models.ListItems;
 import com.h5190001.nizamet_ozkan_final.R;
 
 public class ListItemViewHolder extends RecyclerView.ViewHolder {

@@ -1,4 +1,4 @@
-package com.h5190001.nizamet_ozkan_final.Activitiy;
+package com.h5190001.nizamet_ozkan_final.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,13 +6,11 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.h5190001.nizamet_ozkan_final.Models.ListItems;
+import com.h5190001.nizamet_ozkan_final.models.ListItems;
 import com.h5190001.nizamet_ozkan_final.R;
-import com.h5190001.nizamet_ozkan_final.Utils.Constants;
-import com.h5190001.nizamet_ozkan_final.Utils.GlideUtil;
-import com.h5190001.nizamet_ozkan_final.Utils.Objects;
-
-import static com.h5190001.nizamet_ozkan_final.Utils.Constants.SELECTED_ITEM_IMAGE_URL;
+import com.h5190001.nizamet_ozkan_final.utils.Constants;
+import com.h5190001.nizamet_ozkan_final.utils.GlideUtil;
+import com.h5190001.nizamet_ozkan_final.utils.Objects;
 
 public class DetailsActivity extends AppCompatActivity {
 

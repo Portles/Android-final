@@ -1,8 +1,6 @@
-package com.h5190001.nizamet_ozkan_final.Activitiy;
+package com.h5190001.nizamet_ozkan_final.activities;
 
-import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -12,14 +10,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
 
-import com.h5190001.nizamet_ozkan_final.Adapters.ViewHolders.ListItemAdapter;
-import com.h5190001.nizamet_ozkan_final.Models.ListItems;
+import com.h5190001.nizamet_ozkan_final.viewholders.ListItemAdapter;
+import com.h5190001.nizamet_ozkan_final.models.ListItems;
 import com.h5190001.nizamet_ozkan_final.R;
-import com.h5190001.nizamet_ozkan_final.Services.Service;
-import com.h5190001.nizamet_ozkan_final.Utils.AlertboxUtil;
-import com.h5190001.nizamet_ozkan_final.Utils.Constants;
-import com.h5190001.nizamet_ozkan_final.Utils.GlideUtil;
-import com.h5190001.nizamet_ozkan_final.Utils.Objects;
+import com.h5190001.nizamet_ozkan_final.services.Service;
+import com.h5190001.nizamet_ozkan_final.utils.AlertboxUtil;
+import com.h5190001.nizamet_ozkan_final.utils.Constants;
+import com.h5190001.nizamet_ozkan_final.utils.GlideUtil;
+import com.h5190001.nizamet_ozkan_final.utils.Objects;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +27,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-import static com.h5190001.nizamet_ozkan_final.Utils.Constants.MAIN_HEADER_IMAGE_URL;
+import static com.h5190001.nizamet_ozkan_final.utils.Constants.MAIN_HEADER_IMAGE_URL;
 
 public class ListActivity extends AppCompatActivity {
 

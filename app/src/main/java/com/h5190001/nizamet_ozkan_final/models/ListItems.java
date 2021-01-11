@@ -1,4 +1,4 @@
-package com.h5190001.nizamet_ozkan_final.Models;
+package com.h5190001.nizamet_ozkan_final.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

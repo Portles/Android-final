@@ -5,7 +5,7 @@
 [![okHttp Badge](https://img.shields.io/badge/okhttp-2.7.2-green)](https://square.github.io/okhttp/) 
 [![Retrofit](https://img.shields.io/badge/Retrofit-2.7.0-red)](https://square.github.io/retrofit/) 
 [![JAVA-Android-Extensions](https://img.shields.io/badge/Java--Android--Extensions-plugin-red.svg)](https://developer.android.com/studio/releases/gradle-plugin) 
-[![MVVM](https://img.shields.io/badge/Clean--Code-MVVM-brightgreen.svg)](https://github.com/googlesamples/android-architecture) 
+[![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)](https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/) 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-green)](https://raw.githubusercontent.com/Portles/Android-final/main/LICENSE) 
 LOGO
 --------
@@ -20,16 +20,16 @@ ABOUT
 SCREENSHOTS
 --------
 <p>
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/SplashActivity.png" alt="SS1" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/InternetAlertDialog.png" alt="SS2" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/ListActivity.png" alt="SS3" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/QuitAlertDialog.png" alt="SS4" />
-  <img width="185" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/DetailsActivity.png" alt="SS5" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/SplashActivity.png" alt="SS1" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/InternetAlertDialog.png" alt="SS2" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/ListActivity.png" alt="SS3" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/QuitAlertDialog.png" alt="SS4" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/DetailsActivity.png" alt="SS5" />
 </p>
 
 MVC PACKET MANAGEMENT
 --------
-<img width="330" height= "800"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/MVVM.png" alt="SS5" />
+<img width="330" height= "800"  src="https://raw.githubusercontent.com/Portles/Android-final/main/GithubAssest/MVC.png" alt="SS5" />
 
 USED FRAMEWORKS
 --------

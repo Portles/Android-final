@@ -1,6 +1,6 @@
-package com.h5190001.nizamet_ozkan_final.Services;
+package com.h5190001.nizamet_ozkan_final.services;
 
-import com.h5190001.nizamet_ozkan_final.Utils.Constants;
+import com.h5190001.nizamet_ozkan_final.utils.Constants;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;

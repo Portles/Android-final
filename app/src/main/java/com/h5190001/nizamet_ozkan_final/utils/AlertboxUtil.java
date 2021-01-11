@@ -1,19 +1,13 @@
-package com.h5190001.nizamet_ozkan_final.Utils;
+package com.h5190001.nizamet_ozkan_final.utils;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Bundle;
 import android.provider.Settings;
 
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.h5190001.nizamet_ozkan_final.R;
-
-import static androidx.core.content.ContextCompat.getColor;
-import static androidx.core.content.ContextCompat.startActivity;
 
 public class AlertboxUtil{
     public static void InternetAlertDialog(Context context, Activity activity)

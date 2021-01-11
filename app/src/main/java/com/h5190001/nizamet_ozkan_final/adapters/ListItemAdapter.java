@@ -1,4 +1,4 @@
-package com.h5190001.nizamet_ozkan_final.Adapters.ViewHolders;
+package com.h5190001.nizamet_ozkan_final.viewholders;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.h5190001.nizamet_ozkan_final.Models.ListItems;
+import com.h5190001.nizamet_ozkan_final.models.ListItems;
 import com.h5190001.nizamet_ozkan_final.R;
-import com.h5190001.nizamet_ozkan_final.Utils.GlideUtil;
+import com.h5190001.nizamet_ozkan_final.utils.GlideUtil;
 
 import java.util.List;
 

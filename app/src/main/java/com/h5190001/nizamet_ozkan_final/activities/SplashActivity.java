@@ -1,4 +1,4 @@
-package com.h5190001.nizamet_ozkan_final.Activitiy;
+package com.h5190001.nizamet_ozkan_final.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.net.ConnectivityManager;
 import android.os.Bundle;
 
 import com.h5190001.nizamet_ozkan_final.R;
-import com.h5190001.nizamet_ozkan_final.Utils.AlertboxUtil;
+import com.h5190001.nizamet_ozkan_final.utils.AlertboxUtil;
 
 public class SplashActivity extends AppCompatActivity {
 

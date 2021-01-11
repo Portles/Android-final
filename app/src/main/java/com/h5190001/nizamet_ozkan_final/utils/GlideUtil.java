@@ -1,4 +1,4 @@
-package com.h5190001.nizamet_ozkan_final.Utils;
+package com.h5190001.nizamet_ozkan_final.utils;
 
 import android.content.Context;
 import android.widget.ImageView;

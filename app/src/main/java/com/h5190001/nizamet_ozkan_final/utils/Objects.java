@@ -1,7 +1,7 @@
-package com.h5190001.nizamet_ozkan_final.Utils;
+package com.h5190001.nizamet_ozkan_final.utils;
 
 import com.google.gson.Gson;
-import com.h5190001.nizamet_ozkan_final.Models.ListItems;
+import com.h5190001.nizamet_ozkan_final.models.ListItems;
 
 public class Objects {
     public static String ListItemToJsonString(ListItems listItems)

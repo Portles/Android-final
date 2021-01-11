@@ -17,15 +17,15 @@
         android:theme="@style/Theme.H5190001_NizametOzkanFinal"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".Activitiy.DetailsActivity"></activity>
-        <activity android:name=".Activitiy.SplashActivity">
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activitiy.ListActivity" />
+        <activity android:name=".activities.ListActivity" />
+        <activity android:name=".activities.DetailsActivity" />
     </application>
 
 </manifest>

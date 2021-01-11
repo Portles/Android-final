@@ -1,6 +1,6 @@
-package com.h5190001.nizamet_ozkan_final.Services;
+package com.h5190001.nizamet_ozkan_final.services;
 
-import com.h5190001.nizamet_ozkan_final.Models.ListItems;
+import com.h5190001.nizamet_ozkan_final.models.ListItems;
 
 import java.util.List;
 
