@@ -15,16 +15,16 @@ ABOUT
 --------
 <p>Simple app about pull image and json data with okHttp.</p>
 <p>Listing data with Adapters and ViewHolders.</p>
-<p>Great example for MVVM.</p>
+<p>Great example for MVC.</p>
 
 SCREENSHOTS
 --------
 <p>
-  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/SplashActivity.png" alt="SS1" />
-  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/InternetAlertDialog.png" alt="SS2" />
-  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/ListActivity.png" alt="SS3" />
-  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/QuitAlertDialog.png" alt="SS4" />
-  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/DetailsActivity.png" alt="SS5" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/SplashActivity.png" alt="SplashActivity" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/ListActivity.png" alt="ListActivity" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/DetailsActivity.png" alt="DetailsActivity" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/QuitAlertDialog.png" alt="QuitAlertDialog" />
+  <img width="180" height= "400"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/InternetAlertDialog.png" alt="InternetAlertDialog" />
 </p>
 
 MVC PACKET MANAGEMENT
