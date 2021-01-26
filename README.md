@@ -21,11 +21,11 @@ ABOUT
 SCREENSHOTS
 --------
 <p>
-  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/SplashActivity.png" alt="SplashActivity" />
-  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/ListActivity.png" alt="ListActivity" />
-  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/DetailsActivity.png" alt="DetailsActivity" />
-  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/QuitAlertDialog.png" alt="QuitAlertDialog" />
-  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/h5190001nizametozkan/main/GithubAssest/InternetAlertDialog.png" alt="InternetAlertDialog" />
+  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/GF-Games/main/GithubAssest/SplashActivity.png" alt="SplashActivity" />
+  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/GF-Games/main/GithubAssest/ListActivity.png" alt="ListActivity" />
+  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/GF-Games/main/GithubAssest/DetailsActivity.png" alt="DetailsActivity" />
+  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/GF-Games/main/GithubAssest/QuitAlertDialog.png" alt="QuitAlertDialog" />
+  <img width="150" height= "350"  src="https://raw.githubusercontent.com/Portles/GF-Games/main/GithubAssest/InternetAlertDialog.png" alt="InternetAlertDialog" />
 </p>
 
 MVC PACKET MANAGEMENT
