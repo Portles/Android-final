@@ -1,4 +1,4 @@
-# Android-final
+# GF-Games-Info
 
 [![JAVA](https://img.shields.io/badge/JAVA-8-green)](https://www.java.com/) 
 [![Glide 4](https://img.shields.io/badge/glide-4.11.0-orange)](https://github.com/bumptech/glide) 
